@@ -2,11 +2,13 @@
    font-family: monoMMM;
    src: url(font/monoMMM_5.ttf);
 }
+
 @keyframes type {
    from {
       width: 0;
    }
 }
+
 body {
    background-color: rgb(20, 20, 20);
    display: grid;
@@ -32,6 +34,7 @@ button {
 }
 
 button {
+   height: 5vw;
    margin: 1vw;
    color: rgb(20, 180, 20);
 }
@@ -67,8 +70,8 @@ body,
    margin: 1vw;
    border-radius: 3vw;
    width: fit-content;
+   overflow: hidden;
    min-width: 50vw;
-   transition: width 5s;
 }
 
 .X,
