@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>HTML</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <h1>Valores para a formula:</h1>
+   <div class="inputs">
+      <div class="valores">
+         <p>A =</p>
+         <input class="valor" id="valorA" type="number" placeholder="">
+      </div>
+      <div class="valores">
+         <p>B =</p>
+         <input class="valor" id="valorB" type="number" placeholder="">
+      </div>
+      <div class="valores">
+         <p>C =</p>
+         <input class="valor" id="valorC" type="number" placeholder="">
+      </div>
+      <button onclick="calcular()">
+         Calcular
+      </button>
+   </div>
+   <h2>Formulas</h2>
+   <div class="formulas">
+      <p>Delta</p>
+      <div class="delta" id="delta">
+         <div>
+            <p class="resultado">∆ =</p>
+            <div>
+               <p id="B1" class="B">B</p>
+               <p>² - 4×</p>
+               <p id="A1" class="A">A</p>
+               <p>×</p>
+               <p id="C" class="C">C</p>
+            </div>
+            <p id="resultadoDelta" class="resultado"> = </p>
+         </div>
+      </div>
+   </div>
+   <div class="formulas">
+      <p>X1</p>
+      <div class="X">
+         <div>
+            <p class="resultado">X1 = </p>
+            <nav>
+               <div>
+                  <p>-</p>
+                  <p id="B2" class="B">B</p>
+                  <div>
+                     <p>+ √∆</p>
+                  </div>
+               </div>
+               <hr>
+               <div>
+                  <p>2×</p>
+                  <p id="A2" class="A">A</p>
+               </div>
+            </nav>
+            <p id="resultadoX1" class="resultado"> = </p>
+         </div>
+      </div>
+   </div>
+   <div class="formulas">
+      <p>X2</p>
+      <div class="X">
+         <div>
+            <p class="resultado">X1 = </p>
+            <nav>
+               <div>
+                  <p>-</p>
+                  <p id="B3" class="B">B</p>
+                  <div>
+                     <p>- √∆</p>
+                  </div>
+               </div>
+               <hr>
+               <div>
+                  <p>2×</p>
+                  <p id="A3" class="A">A</p>
+               </div>
+            </nav>
+            <p id="resultadoX2" class="resultado"> = </p>
+         </div>
+      </div>
+   </div>
+   </div>
+   <div class="OBS">
+      <p>NPRR = Não possui raízes reais</p>
+   </div>
+   <script src="main.js"></script>
+</body>
+
+</html>

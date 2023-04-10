@@ -1,0 +1,115 @@
+@font-face {
+   font-family: monoMMM;
+   src: url(font/monoMMM_5.ttf);
+}
+@keyframes type {
+   from {
+      width: 0;
+   }
+}
+body {
+   background-color: rgb(20, 20, 20);
+   display: grid;
+   place-items: center;
+   color: white;
+   font-family: monoMMM;
+   font-size: 2vw;
+   text-align: center;
+}
+
+input,
+button {
+   text-align: center;
+   width: inherit;
+   font-size: 2vw;
+   height: 4vw;
+   background-color: rgb(40, 40, 40);
+   border: none;
+   color: white;
+   margin: 0;
+   border-radius: 3vw;
+   font-family: monoMMM;
+}
+
+button {
+   margin-top: 1vw;
+   color: rgb(20, 180, 20);
+}
+
+hr {
+   border: 0.5px solid;
+}
+
+.inputs {
+   width: 50vw;
+   display: grid;
+   place-items: center;
+}
+
+body,
+.inputs {
+   margin: 0;
+   padding: 0;
+}
+
+.valores {
+   display: flex;
+   width: inherit;
+   align-items: center;
+}
+
+.valores p {
+   width: 7vw;
+}
+
+.formulas {
+   background-color: crimson;
+   margin: 1vw;
+   border-radius: 3vw;
+   width: fit-content;
+   min-width: 50vw;
+   transition: width 5s;
+}
+
+.X,
+.delta {
+   display: grid;
+   place-items: center;
+   border-radius: 3vw;
+   padding: 0.5vw;
+   margin: 2vw;
+   padding: 2vw;
+   background-color: rgb(20, 20, 20);
+}
+
+.X p,
+.delta p {
+   margin: 0;
+}
+
+.X div,
+.delta div {
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 1vw;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+nav {
+   margin: 1vw;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.resultado {
+   color: pink;
+}
+
+.A,
+.B,
+.C {
+   color: rgb(20, 180, 20);
+}
